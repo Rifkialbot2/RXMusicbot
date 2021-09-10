@@ -425,7 +425,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return    
-    lel = await message.reply("🔎 **Mencari Lagu** 🔎")
+    lel = await message.reply("🔎 **Mencari Lagu**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -510,10 +510,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💡 Update", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -556,10 +556,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💡 Update", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -629,10 +629,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💡 Update", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="cls")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -731,10 +731,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💡 Update", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="cls")],
             ]
         )
     requested_by = useer_name
@@ -788,7 +788,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **Mencari Lagu** 🔎")
+    lel = await message.reply("🔎 **Mencari Lagu**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -841,7 +841,7 @@ async def ytplay(_, message: Message):
             f"<i>{user.first_name} was banned in this group, ask admin to unban @{ASSISTANT_NAME} manually.</i>"
         )
         return
-    await lel.edit("🔎 **Mencari Lagu** 🔎")
+    await lel.edit("🔎 **Mencari Lagu**")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
      
@@ -876,10 +876,10 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💡 Update", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="cls")],
             ]
         )
     requested_by = message.from_user.first_name
