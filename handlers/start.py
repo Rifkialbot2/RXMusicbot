@@ -41,16 +41,16 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ ᴀᴅᴅ ʀx ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "⚙️ Source Code ⚙️", url="https://github.com/KennedyProject/KennedyXMusic"
+                        "⚙️sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/KennedyProject/KennedyXMusic"
                     )
                 ]
             ]
@@ -75,11 +75,11 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👥 Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 Perintah", callback_data="cbcmds"
+                        "📚 ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbcmds"
                     )
                 ]
             ]
@@ -117,7 +117,7 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "HELP", callback_data="cbhowtouse"
+                        "ʜᴇʟᴘ", callback_data="cbhowtouse"
                     )
                 ]
             ]
