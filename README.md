@@ -1,7 +1,7 @@
-<h2 align="centre">🕊️ Kennedy X Music 🕊️
+<h2 align="centre">🕊️ RXMusicbot 🕊️
 
 ### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/KennedyXMusic"><img src="https://telegra.ph/file/f09189fdd97a3764a1f7a.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/KGSuperbot"><img src="https://telegra.ph/file/d750cafe21a67044e8abd.jpg" width="300"></a></p>
 
 <h3>Requirements 📝</h3>
 
@@ -54,7 +54,7 @@
 ## Heroku Deployment 
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KennedyProject/KennedyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/icungkeren/RXMusicbot)
 
 ### Credits 🕊️
 - [Kennedy](https://github.com/KennedyProject) Developer
@@ -62,4 +62,4 @@ The easy way to host this bot, deploy to Heroku
 - [Levina](https://github.com/levina-lab) Veez Project
 
 ### Support & Updates ✨
-<a href="https://t.me/kenbotsupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KennedyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/zeusnihprend"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zeusnihprend"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
