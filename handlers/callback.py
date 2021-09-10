@@ -48,11 +48,11 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "👥 Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 Perintah", callback_data="cbhelp"
+                        "📚 ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbhelp"
                     )
                 ]
             ]
